@@ -1,0 +1,1 @@
+docker run --restart unless-stopped -d --name wordpress --link spawning-pool:mysql-server -p 8080:80 wordpress

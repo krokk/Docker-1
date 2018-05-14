@@ -1,0 +1,4 @@
+docker exec spawning-pool env
+#but only working if container is active
+
+docker inspect --format '{{ .Config.Env }}' spawning-pool

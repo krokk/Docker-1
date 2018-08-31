@@ -1,1 +1,1 @@
-apt-get updade && apt-get install gcc
+apt-get updade && apt-get install gcc ; docker push yourgitusername/repository
